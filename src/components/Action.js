@@ -6,5 +6,5 @@ export default (props) =>
         onClick={props.makeDecision}
         disabled={!props.hasOptions}
     >
-        WTF am I to do??
+        What should I do?
     </button>

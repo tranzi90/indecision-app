@@ -62,7 +62,7 @@ class App extends React.Component {
     }
 
     render() {
-        const subtitle = 'Trust the machine!!1'
+        const subtitle = 'Trust the machine!'
 
         return (
             <div>
