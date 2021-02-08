@@ -34,10 +34,10 @@ class App extends React.Component {
         e.target.elements.option.value = ''
 
         if (!option) {
-            return this.setState(() => ({ error: 'введи ченить плз' }))
+            return this.setState(() => ({ error: 'Please add any option' }))
         }
         else if (this.state.options.indexOf(option) > -1) {
-            return this.setState(() => ({ error: 'это уже есть' }))
+            return this.setState(() => ({ error: 'This option already exists' }))
         }
 
         this.setState((prevState) => ({
