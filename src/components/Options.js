@@ -12,7 +12,7 @@ export default (props) => (
                     Remove all
                 </button>
             </div>
-            {props.options.length === 0 && <p className='widget__message'>Добавьте опции</p>}
+            {props.options.length === 0 && <p className='widget__message'>Please add any options</p>}
             {
                 props.options.map((option, index) =>
                     <Option
