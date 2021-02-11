@@ -1,23 +1,23 @@
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: $m-size;
-  background-color: $dark-blue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    background-color: $dark-blue;
 }
 
 .App {
-  max-width: 60rem;
-  margin: 0 auto;
-  padding: 0 $m-size;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $m-size;
 }
 
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 button:disabled {
-  cursor: default;
+    cursor: default;
 }
